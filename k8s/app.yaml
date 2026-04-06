@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: localpiplinegit/nodejs-mongo-k8s:latest
+        image: yourodockerusername/repisotry:latest
         ports:
         - containerPort: 3000
         env:
