@@ -3,7 +3,7 @@
 
  # This is a demo project for learning and testing purposes only. Not suitable for production.
 
-# A full-stack web application running on Kubernetes. The frontend is HTML/CSS/JS, the backend is Node.js with Express, and the database is MongoDB running as a StatefulSet with a persistent volume. The project also includes a CI/CD pipeline using GitHub Actions that automatically builds and pushes the Docker image to Docker Hub on every push to main.
+# A simple full stack web application running on Kubernetes. The frontend is HTML/CSS/JS, the backend is Node.js with Express, and the database is MongoDB running as a StatefulSet with a persistent volume. The project also includes a CI/CD pipeline using GitHub Actions that automatically builds and pushes the Docker image to Docker Hub on every push to main.
 
 ---
 
