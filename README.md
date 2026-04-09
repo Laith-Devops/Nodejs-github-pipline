@@ -111,8 +111,8 @@ kubectl apply manually
 
 bash
 # build and push image
-docker build -t yourdockerhubusername/nodejs-mongo-k8s:latest .
-docker push yourdockerhubusername/nodejs-mongo-k8s:latest
+docker build -t yourdockerhubusername/yourrepisotryname:latest .
+docker push yourdockerhubusername/yourrepisotiryname:latest
 
 # deploy MongoDB first
 kubectl apply -f k8s/mongo.yaml
